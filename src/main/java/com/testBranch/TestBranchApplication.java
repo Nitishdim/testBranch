@@ -7,6 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TestBranchApplication {
 
 	public static void main(String[] args) {
+		int x=100;
+		if(x>50){
+			System.out.println("i love u");
+		}
 		SpringApplication.run(TestBranchApplication.class, args);
 	}
 
